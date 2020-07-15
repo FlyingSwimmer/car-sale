@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 0 15px;
+    direction: rtl;
+}
+
+.form {
+    margin: auto;
+    width: 360px;
+    padding: 0 15px;
+    height: 100%;
+    background: #ccbbaa;
+}
+
+.form-title {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.field-item {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.field-item > .field-item-input {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-button {
+    display: block;
+    width: 120px;
+    height: 36px;
+    margin: auto;
+}

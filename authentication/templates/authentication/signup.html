@@ -1,0 +1,21 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'authentication/styles.css' %}">
+
+<div class="container">
+    <div class="form">
+        <h3 class="form-title">ثبت‌ نام</h3>
+        <form action="/yakhchool">
+            <div class="field-item">
+                <input class="field-item-input" placeholder="نام و نام‌خانوادگی" type="text"/>
+            </div>
+            <div class="field-item">
+                <input class="field-item-input" placeholder="ایمیل" type="email"/>
+            </div>
+            <div class="field-item">
+                <input class="field-item-input" placeholder="رمز عبور" type="password"/>
+            </div>
+            <button type="submit" class="form-button">ثبت‌ نام</button>
+        </form>
+    </div>
+</div>
